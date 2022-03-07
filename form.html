@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Basketball Court Booking </title>
+		<meta charset="utf-8">
+		<meta name="description" content="Penyewaan Lapangan Basket">
+		<meta name="keywords" content="HTML, CSS, PHP">
+		<meta name="author" content="TM1">
+		<meta name="viewport" content="width=device width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<!-- Header -->
+		<div class="header">
+			<img class="logo" src="basketballLogo.png" alt="logo">
+			<p class="title">Basketball</p>
+		</div>
+		
+		<!-- Content -->
+		
+		<div class = "main">
+			<h1>Form Booking Lapangan Basket</h1>
+			<fieldset>
+			<form action="validasi.php" method="POST">
+				<div class="jarak">
+					<label>Nama</label><br>
+					<input type="text" name="nama"/>
+				</div>
+				<div class="jarak">
+					<label> Alamat Lengkap</label>
+					<textarea name="alamat" > </textarea>
+				</div>
+				<div class="jarak">
+					<label>Nomor Whatsapp</label><br>
+					<input type="text" name="noWa" placeholder="xxxxxxxxxxxx"/>
+				</div>
+				<div class="jarak">
+					<label>Tanggal Sewa</label><br>
+					<input type="date" name="tglSewa"/>
+				</div>
+				<div class="jarak">
+					<label>Pukul</label><br>
+					<input type="text" name="tglSewa" placeholder="12.00-15.00"/>
+				</div>
+			</form>
+			</fieldset>
+		</div>
+		
+	</body>
+</html>
